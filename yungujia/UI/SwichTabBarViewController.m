@@ -14,6 +14,12 @@
 
 @implementation SwichTabBarViewController
 
+@synthesize xunjiaBtn = _xunjiaBtn;
+@synthesize guanzhuBtn = _guanzhuBtn;
+@synthesize gujiashiBtn = _gujiashiBtn;
+@synthesize gengduoBtn = _gengduoBtn;
+
+
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];

@@ -8,10 +8,6 @@
 
 #import "AppDelegate.h"
 
-#import "FirstViewController.h"
-
-#import "SecondViewController.h"
-
 @implementation AppDelegate
 
 @synthesize window = _window;
@@ -28,10 +24,12 @@
 {
     self.window = [[[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]] autorelease];
     // Override point for customization after application launch.
-    UIViewController *viewController1 = [[[FirstViewController alloc] initWithNibName:@"FirstViewController" bundle:nil] autorelease];
-    UIViewController *viewController2 = [[[SecondViewController alloc] initWithNibName:@"SecondViewController" bundle:nil] autorelease];
-    self.tabBarController = [[[UITabBarController alloc] init] autorelease];
-    self.tabBarController.viewControllers = [NSArray arrayWithObjects:viewController1, viewController2, nil];
+    UIViewController *viewController1 = [[[XunJiaViewController alloc] initWithNibName:@"XunJiaViewController" bundle:nil] autorelease];
+    UIViewController *viewController2 = [[[GuanZhuViewController alloc] initWithNibName:@"GuanZhuViewController" bundle:nil] autorelease];
+    UIViewController *viewController3 = [[[GuJiaShiViewController alloc] initWithNibName:@"GuJiaShiViewController" bundle:nil] autorelease];
+    UIViewController *viewController4 = [[[GengDuoViewController alloc] initWithNibName:@"GengDuoViewController" bundle:nil] autorelease];
+    self.tabBarController = [[[SwichTabBarViewController alloc] initWithNibName:@"SwichTabBarViewController" bundle:nil] autorelease];
+    self.tabBarController.viewControllers = [NSArray arrayWithObjects:viewController1, viewController2,viewController3, viewController4, nil];
     self.window.rootViewController = self.tabBarController;
     [self.window makeKeyAndVisible];
     

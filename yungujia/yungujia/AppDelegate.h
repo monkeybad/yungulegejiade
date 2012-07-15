@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "SwichTabBarViewController.h"
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate, UITabBarControllerDelegate>
 

@@ -19,6 +19,8 @@
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
         // Custom initialization
+        self.title = @"关注";
+        //self.tabBarItem.image = [UIImage imageNamed:@"second"];
     }
     return self;
 }

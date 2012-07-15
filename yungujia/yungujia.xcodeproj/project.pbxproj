@@ -13,20 +13,22 @@
 		BE85B50A15B3293E0010E0F5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = BE85B50815B3293E0010E0F5 /* InfoPlist.strings */; };
 		BE85B50C15B3293E0010E0F5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BE85B50B15B3293E0010E0F5 /* main.m */; };
 		BE85B51015B3293E0010E0F5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BE85B50F15B3293E0010E0F5 /* AppDelegate.m */; };
-		BE85B51315B3293E0010E0F5 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE85B51215B3293E0010E0F5 /* FirstViewController.m */; };
-		BE85B51515B3293E0010E0F5 /* first.png in Resources */ = {isa = PBXBuildFile; fileRef = BE85B51415B3293E0010E0F5 /* first.png */; };
-		BE85B51715B3293E0010E0F5 /* first@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE85B51615B3293E0010E0F5 /* first@2x.png */; };
-		BE85B51A15B3293E0010E0F5 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE85B51915B3293E0010E0F5 /* SecondViewController.m */; };
-		BE85B51C15B3293E0010E0F5 /* second.png in Resources */ = {isa = PBXBuildFile; fileRef = BE85B51B15B3293E0010E0F5 /* second.png */; };
-		BE85B51E15B3293E0010E0F5 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE85B51D15B3293E0010E0F5 /* second@2x.png */; };
-		BE85B52115B3293E0010E0F5 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE85B51F15B3293E0010E0F5 /* FirstViewController.xib */; };
-		BE85B52415B3293E0010E0F5 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE85B52215B3293E0010E0F5 /* SecondViewController.xib */; };
 		BE85B52F15B330140010E0F5 /* README in Resources */ = {isa = PBXBuildFile; fileRef = BE85B52C15B330140010E0F5 /* README */; };
 		BE85B53215B330F80010E0F5 /* BaseDBOperator.m in Sources */ = {isa = PBXBuildFile; fileRef = BE85B53115B330F80010E0F5 /* BaseDBOperator.m */; };
 		BE85B53515B3311D0010E0F5 /* DataParser.m in Sources */ = {isa = PBXBuildFile; fileRef = BE85B53415B3311D0010E0F5 /* DataParser.m */; };
 		BE85B53815B3313E0010E0F5 /* LoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE85B53715B3313E0010E0F5 /* LoginView.m */; };
 		BE85B53B15B331590010E0F5 /* BaseHTTPRequester.m in Sources */ = {isa = PBXBuildFile; fileRef = BE85B53A15B331590010E0F5 /* BaseHTTPRequester.m */; };
 		BE85B53E15B332760010E0F5 /* 手机云估价Demo.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE85B53D15B332760010E0F5 /* 手机云估价Demo.pdf */; };
+		BE85B54715B3373A0010E0F5 /* SwichTabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE85B54515B3373A0010E0F5 /* SwichTabBarViewController.m */; };
+		BE85B54815B3373A0010E0F5 /* SwichTabBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE85B54615B3373A0010E0F5 /* SwichTabBarViewController.xib */; };
+		BE85B54C15B3375E0010E0F5 /* XunJiaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE85B54A15B3375E0010E0F5 /* XunJiaViewController.m */; };
+		BE85B54D15B3375E0010E0F5 /* XunJiaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE85B54B15B3375E0010E0F5 /* XunJiaViewController.xib */; };
+		BE85B55115B3378C0010E0F5 /* GuanZhuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE85B54F15B3378C0010E0F5 /* GuanZhuViewController.m */; };
+		BE85B55215B3378C0010E0F5 /* GuanZhuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE85B55015B3378C0010E0F5 /* GuanZhuViewController.xib */; };
+		BE85B55B15B337B60010E0F5 /* GengDuoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE85B55915B337B60010E0F5 /* GengDuoViewController.m */; };
+		BE85B55C15B337B60010E0F5 /* GengDuoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE85B55A15B337B60010E0F5 /* GengDuoViewController.xib */; };
+		BE85B56015B33BE50010E0F5 /* GuJiaShiViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BE85B55E15B33BE50010E0F5 /* GuJiaShiViewController.m */; };
+		BE85B56115B33BE50010E0F5 /* GuJiaShiViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE85B55F15B33BE50010E0F5 /* GuJiaShiViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -40,16 +42,6 @@
 		BE85B50D15B3293E0010E0F5 /* yungujia-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "yungujia-Prefix.pch"; sourceTree = "<group>"; };
 		BE85B50E15B3293E0010E0F5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BE85B50F15B3293E0010E0F5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		BE85B51115B3293E0010E0F5 /* FirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
-		BE85B51215B3293E0010E0F5 /* FirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
-		BE85B51415B3293E0010E0F5 /* first.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = first.png; sourceTree = "<group>"; };
-		BE85B51615B3293E0010E0F5 /* first@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "first@2x.png"; sourceTree = "<group>"; };
-		BE85B51815B3293E0010E0F5 /* SecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
-		BE85B51915B3293E0010E0F5 /* SecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
-		BE85B51B15B3293E0010E0F5 /* second.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = second.png; sourceTree = "<group>"; };
-		BE85B51D15B3293E0010E0F5 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
-		BE85B52015B3293E0010E0F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstViewController.xib; sourceTree = "<group>"; };
-		BE85B52315B3293E0010E0F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondViewController.xib; sourceTree = "<group>"; };
 		BE85B52C15B330140010E0F5 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = SOURCE_ROOT; };
 		BE85B53015B330F80010E0F5 /* BaseDBOperator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseDBOperator.h; sourceTree = "<group>"; };
 		BE85B53115B330F80010E0F5 /* BaseDBOperator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseDBOperator.m; sourceTree = "<group>"; };
@@ -60,6 +52,21 @@
 		BE85B53915B331590010E0F5 /* BaseHTTPRequester.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseHTTPRequester.h; sourceTree = "<group>"; };
 		BE85B53A15B331590010E0F5 /* BaseHTTPRequester.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseHTTPRequester.m; sourceTree = "<group>"; };
 		BE85B53D15B332760010E0F5 /* 手机云估价Demo.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "手机云估价Demo.pdf"; sourceTree = "<group>"; };
+		BE85B54415B3373A0010E0F5 /* SwichTabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SwichTabBarViewController.h; sourceTree = "<group>"; };
+		BE85B54515B3373A0010E0F5 /* SwichTabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SwichTabBarViewController.m; sourceTree = "<group>"; };
+		BE85B54615B3373A0010E0F5 /* SwichTabBarViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SwichTabBarViewController.xib; sourceTree = "<group>"; };
+		BE85B54915B3375E0010E0F5 /* XunJiaViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XunJiaViewController.h; sourceTree = "<group>"; };
+		BE85B54A15B3375E0010E0F5 /* XunJiaViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XunJiaViewController.m; sourceTree = "<group>"; };
+		BE85B54B15B3375E0010E0F5 /* XunJiaViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XunJiaViewController.xib; sourceTree = "<group>"; };
+		BE85B54E15B3378C0010E0F5 /* GuanZhuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuanZhuViewController.h; sourceTree = "<group>"; };
+		BE85B54F15B3378C0010E0F5 /* GuanZhuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuanZhuViewController.m; sourceTree = "<group>"; };
+		BE85B55015B3378C0010E0F5 /* GuanZhuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GuanZhuViewController.xib; sourceTree = "<group>"; };
+		BE85B55815B337B60010E0F5 /* GengDuoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GengDuoViewController.h; sourceTree = "<group>"; };
+		BE85B55915B337B60010E0F5 /* GengDuoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GengDuoViewController.m; sourceTree = "<group>"; };
+		BE85B55A15B337B60010E0F5 /* GengDuoViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GengDuoViewController.xib; sourceTree = "<group>"; };
+		BE85B55D15B33BE50010E0F5 /* GuJiaShiViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuJiaShiViewController.h; sourceTree = "<group>"; };
+		BE85B55E15B33BE50010E0F5 /* GuJiaShiViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuJiaShiViewController.m; sourceTree = "<group>"; };
+		BE85B55F15B33BE50010E0F5 /* GuJiaShiViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GuJiaShiViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,16 +121,6 @@
 				BE85B52E15B330140010E0F5 /* UI */,
 				BE85B50E15B3293E0010E0F5 /* AppDelegate.h */,
 				BE85B50F15B3293E0010E0F5 /* AppDelegate.m */,
-				BE85B51115B3293E0010E0F5 /* FirstViewController.h */,
-				BE85B51215B3293E0010E0F5 /* FirstViewController.m */,
-				BE85B51415B3293E0010E0F5 /* first.png */,
-				BE85B51615B3293E0010E0F5 /* first@2x.png */,
-				BE85B51815B3293E0010E0F5 /* SecondViewController.h */,
-				BE85B51915B3293E0010E0F5 /* SecondViewController.m */,
-				BE85B51B15B3293E0010E0F5 /* second.png */,
-				BE85B51D15B3293E0010E0F5 /* second@2x.png */,
-				BE85B51F15B3293E0010E0F5 /* FirstViewController.xib */,
-				BE85B52215B3293E0010E0F5 /* SecondViewController.xib */,
 				BE85B50615B3293E0010E0F5 /* Supporting Files */,
 			);
 			path = yungujia;
@@ -172,6 +169,21 @@
 			children = (
 				BE85B53615B3313E0010E0F5 /* LoginView.h */,
 				BE85B53715B3313E0010E0F5 /* LoginView.m */,
+				BE85B54415B3373A0010E0F5 /* SwichTabBarViewController.h */,
+				BE85B54515B3373A0010E0F5 /* SwichTabBarViewController.m */,
+				BE85B54615B3373A0010E0F5 /* SwichTabBarViewController.xib */,
+				BE85B54915B3375E0010E0F5 /* XunJiaViewController.h */,
+				BE85B54A15B3375E0010E0F5 /* XunJiaViewController.m */,
+				BE85B54B15B3375E0010E0F5 /* XunJiaViewController.xib */,
+				BE85B54E15B3378C0010E0F5 /* GuanZhuViewController.h */,
+				BE85B54F15B3378C0010E0F5 /* GuanZhuViewController.m */,
+				BE85B55015B3378C0010E0F5 /* GuanZhuViewController.xib */,
+				BE85B55815B337B60010E0F5 /* GengDuoViewController.h */,
+				BE85B55915B337B60010E0F5 /* GengDuoViewController.m */,
+				BE85B55A15B337B60010E0F5 /* GengDuoViewController.xib */,
+				BE85B55D15B33BE50010E0F5 /* GuJiaShiViewController.h */,
+				BE85B55E15B33BE50010E0F5 /* GuJiaShiViewController.m */,
+				BE85B55F15B33BE50010E0F5 /* GuJiaShiViewController.xib */,
 			);
 			path = UI;
 			sourceTree = SOURCE_ROOT;
@@ -235,14 +247,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				BE85B50A15B3293E0010E0F5 /* InfoPlist.strings in Resources */,
-				BE85B51515B3293E0010E0F5 /* first.png in Resources */,
-				BE85B51715B3293E0010E0F5 /* first@2x.png in Resources */,
-				BE85B51C15B3293E0010E0F5 /* second.png in Resources */,
-				BE85B51E15B3293E0010E0F5 /* second@2x.png in Resources */,
-				BE85B52115B3293E0010E0F5 /* FirstViewController.xib in Resources */,
-				BE85B52415B3293E0010E0F5 /* SecondViewController.xib in Resources */,
 				BE85B52F15B330140010E0F5 /* README in Resources */,
 				BE85B53E15B332760010E0F5 /* 手机云估价Demo.pdf in Resources */,
+				BE85B54815B3373A0010E0F5 /* SwichTabBarViewController.xib in Resources */,
+				BE85B54D15B3375E0010E0F5 /* XunJiaViewController.xib in Resources */,
+				BE85B55215B3378C0010E0F5 /* GuanZhuViewController.xib in Resources */,
+				BE85B55C15B337B60010E0F5 /* GengDuoViewController.xib in Resources */,
+				BE85B56115B33BE50010E0F5 /* GuJiaShiViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -255,12 +266,15 @@
 			files = (
 				BE85B50C15B3293E0010E0F5 /* main.m in Sources */,
 				BE85B51015B3293E0010E0F5 /* AppDelegate.m in Sources */,
-				BE85B51315B3293E0010E0F5 /* FirstViewController.m in Sources */,
-				BE85B51A15B3293E0010E0F5 /* SecondViewController.m in Sources */,
 				BE85B53215B330F80010E0F5 /* BaseDBOperator.m in Sources */,
 				BE85B53515B3311D0010E0F5 /* DataParser.m in Sources */,
 				BE85B53815B3313E0010E0F5 /* LoginView.m in Sources */,
 				BE85B53B15B331590010E0F5 /* BaseHTTPRequester.m in Sources */,
+				BE85B54715B3373A0010E0F5 /* SwichTabBarViewController.m in Sources */,
+				BE85B54C15B3375E0010E0F5 /* XunJiaViewController.m in Sources */,
+				BE85B55115B3378C0010E0F5 /* GuanZhuViewController.m in Sources */,
+				BE85B55B15B337B60010E0F5 /* GengDuoViewController.m in Sources */,
+				BE85B56015B33BE50010E0F5 /* GuJiaShiViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,22 +287,6 @@
 				BE85B50915B3293E0010E0F5 /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		BE85B51F15B3293E0010E0F5 /* FirstViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BE85B52015B3293E0010E0F5 /* en */,
-			);
-			name = FirstViewController.xib;
-			sourceTree = "<group>";
-		};
-		BE85B52215B3293E0010E0F5 /* SecondViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BE85B52315B3293E0010E0F5 /* en */,
-			);
-			name = SecondViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
