@@ -1,5 +1,5 @@
 //
-//  SecondViewController.h
+//  GengDuoViewController.h
 //  yungujia
 //
 //  Created by lijinxin on 12-7-16.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface SecondViewController : UIViewController
+@interface GengDuoViewController : UIViewController
 
 @end

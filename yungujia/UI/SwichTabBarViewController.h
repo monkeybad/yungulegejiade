@@ -1,5 +1,5 @@
 //
-//  FirstViewController.h
+//  SwichTabBarViewController.h
 //  yungujia
 //
 //  Created by lijinxin on 12-7-16.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface FirstViewController : UIViewController
+@interface SwichTabBarViewController : UITabBarController
 
 @end
