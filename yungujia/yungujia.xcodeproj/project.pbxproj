@@ -26,6 +26,7 @@
 		BE85B53515B3311D0010E0F5 /* DataParser.m in Sources */ = {isa = PBXBuildFile; fileRef = BE85B53415B3311D0010E0F5 /* DataParser.m */; };
 		BE85B53815B3313E0010E0F5 /* LoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE85B53715B3313E0010E0F5 /* LoginView.m */; };
 		BE85B53B15B331590010E0F5 /* BaseHTTPRequester.m in Sources */ = {isa = PBXBuildFile; fileRef = BE85B53A15B331590010E0F5 /* BaseHTTPRequester.m */; };
+		BE85B53E15B332760010E0F5 /* 手机云估价Demo.pdf in Resources */ = {isa = PBXBuildFile; fileRef = BE85B53D15B332760010E0F5 /* 手机云估价Demo.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,7 @@
 		BE85B53715B3313E0010E0F5 /* LoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginView.m; sourceTree = "<group>"; };
 		BE85B53915B331590010E0F5 /* BaseHTTPRequester.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseHTTPRequester.h; sourceTree = "<group>"; };
 		BE85B53A15B331590010E0F5 /* BaseHTTPRequester.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseHTTPRequester.m; sourceTree = "<group>"; };
+		BE85B53D15B332760010E0F5 /* 手机云估价Demo.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "手机云估价Demo.pdf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,6 +79,7 @@
 		BE85B4F015B3293E0010E0F5 = {
 			isa = PBXGroup;
 			children = (
+				BE85B53C15B332760010E0F5 /* Documents */,
 				BE85B50515B3293E0010E0F5 /* yungujia */,
 				BE85B4FE15B3293E0010E0F5 /* Frameworks */,
 				BE85B4FC15B3293E0010E0F5 /* Products */,
@@ -173,6 +176,14 @@
 			path = UI;
 			sourceTree = SOURCE_ROOT;
 		};
+		BE85B53C15B332760010E0F5 /* Documents */ = {
+			isa = PBXGroup;
+			children = (
+				BE85B53D15B332760010E0F5 /* 手机云估价Demo.pdf */,
+			);
+			path = Documents;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -231,6 +242,7 @@
 				BE85B52115B3293E0010E0F5 /* FirstViewController.xib in Resources */,
 				BE85B52415B3293E0010E0F5 /* SecondViewController.xib in Resources */,
 				BE85B52F15B330140010E0F5 /* README in Resources */,
+				BE85B53E15B332760010E0F5 /* 手机云估价Demo.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
