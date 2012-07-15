@@ -22,6 +22,10 @@
 		BE85B52115B3293E0010E0F5 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE85B51F15B3293E0010E0F5 /* FirstViewController.xib */; };
 		BE85B52415B3293E0010E0F5 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE85B52215B3293E0010E0F5 /* SecondViewController.xib */; };
 		BE85B52F15B330140010E0F5 /* README in Resources */ = {isa = PBXBuildFile; fileRef = BE85B52C15B330140010E0F5 /* README */; };
+		BE85B53215B330F80010E0F5 /* BaseDBOperator.m in Sources */ = {isa = PBXBuildFile; fileRef = BE85B53115B330F80010E0F5 /* BaseDBOperator.m */; };
+		BE85B53515B3311D0010E0F5 /* DataParser.m in Sources */ = {isa = PBXBuildFile; fileRef = BE85B53415B3311D0010E0F5 /* DataParser.m */; };
+		BE85B53815B3313E0010E0F5 /* LoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = BE85B53715B3313E0010E0F5 /* LoginView.m */; };
+		BE85B53B15B331590010E0F5 /* BaseHTTPRequester.m in Sources */ = {isa = PBXBuildFile; fileRef = BE85B53A15B331590010E0F5 /* BaseHTTPRequester.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +50,14 @@
 		BE85B52015B3293E0010E0F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstViewController.xib; sourceTree = "<group>"; };
 		BE85B52315B3293E0010E0F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondViewController.xib; sourceTree = "<group>"; };
 		BE85B52C15B330140010E0F5 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = SOURCE_ROOT; };
+		BE85B53015B330F80010E0F5 /* BaseDBOperator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseDBOperator.h; sourceTree = "<group>"; };
+		BE85B53115B330F80010E0F5 /* BaseDBOperator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseDBOperator.m; sourceTree = "<group>"; };
+		BE85B53315B3311D0010E0F5 /* DataParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataParser.h; sourceTree = "<group>"; };
+		BE85B53415B3311D0010E0F5 /* DataParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataParser.m; sourceTree = "<group>"; };
+		BE85B53615B3313E0010E0F5 /* LoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginView.h; sourceTree = "<group>"; };
+		BE85B53715B3313E0010E0F5 /* LoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginView.m; sourceTree = "<group>"; };
+		BE85B53915B331590010E0F5 /* BaseHTTPRequester.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseHTTPRequester.h; sourceTree = "<group>"; };
+		BE85B53A15B331590010E0F5 /* BaseHTTPRequester.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseHTTPRequester.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +140,8 @@
 		BE85B52A15B330140010E0F5 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				BE85B53015B330F80010E0F5 /* BaseDBOperator.h */,
+				BE85B53115B330F80010E0F5 /* BaseDBOperator.m */,
 			);
 			path = Data;
 			sourceTree = SOURCE_ROOT;
@@ -135,6 +149,8 @@
 		BE85B52B15B330140010E0F5 /* Parser */ = {
 			isa = PBXGroup;
 			children = (
+				BE85B53315B3311D0010E0F5 /* DataParser.h */,
+				BE85B53415B3311D0010E0F5 /* DataParser.m */,
 			);
 			path = Parser;
 			sourceTree = SOURCE_ROOT;
@@ -142,6 +158,8 @@
 		BE85B52D15B330140010E0F5 /* Request */ = {
 			isa = PBXGroup;
 			children = (
+				BE85B53915B331590010E0F5 /* BaseHTTPRequester.h */,
+				BE85B53A15B331590010E0F5 /* BaseHTTPRequester.m */,
 			);
 			path = Request;
 			sourceTree = SOURCE_ROOT;
@@ -149,6 +167,8 @@
 		BE85B52E15B330140010E0F5 /* UI */ = {
 			isa = PBXGroup;
 			children = (
+				BE85B53615B3313E0010E0F5 /* LoginView.h */,
+				BE85B53715B3313E0010E0F5 /* LoginView.m */,
 			);
 			path = UI;
 			sourceTree = SOURCE_ROOT;
@@ -225,6 +245,10 @@
 				BE85B51015B3293E0010E0F5 /* AppDelegate.m in Sources */,
 				BE85B51315B3293E0010E0F5 /* FirstViewController.m in Sources */,
 				BE85B51A15B3293E0010E0F5 /* SecondViewController.m in Sources */,
+				BE85B53215B330F80010E0F5 /* BaseDBOperator.m in Sources */,
+				BE85B53515B3311D0010E0F5 /* DataParser.m in Sources */,
+				BE85B53815B3313E0010E0F5 /* LoginView.m in Sources */,
+				BE85B53B15B331590010E0F5 /* BaseHTTPRequester.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
