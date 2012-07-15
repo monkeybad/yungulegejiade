@@ -21,6 +21,7 @@
 		BE85B51E15B3293E0010E0F5 /* second@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BE85B51D15B3293E0010E0F5 /* second@2x.png */; };
 		BE85B52115B3293E0010E0F5 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE85B51F15B3293E0010E0F5 /* FirstViewController.xib */; };
 		BE85B52415B3293E0010E0F5 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BE85B52215B3293E0010E0F5 /* SecondViewController.xib */; };
+		BE85B52F15B330140010E0F5 /* README in Resources */ = {isa = PBXBuildFile; fileRef = BE85B52C15B330140010E0F5 /* README */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		BE85B51D15B3293E0010E0F5 /* second@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "second@2x.png"; sourceTree = "<group>"; };
 		BE85B52015B3293E0010E0F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/FirstViewController.xib; sourceTree = "<group>"; };
 		BE85B52315B3293E0010E0F5 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SecondViewController.xib; sourceTree = "<group>"; };
+		BE85B52C15B330140010E0F5 /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,11 @@
 		BE85B50515B3293E0010E0F5 /* yungujia */ = {
 			isa = PBXGroup;
 			children = (
+				BE85B52A15B330140010E0F5 /* Data */,
+				BE85B52B15B330140010E0F5 /* Parser */,
+				BE85B52C15B330140010E0F5 /* README */,
+				BE85B52D15B330140010E0F5 /* Request */,
+				BE85B52E15B330140010E0F5 /* UI */,
 				BE85B50E15B3293E0010E0F5 /* AppDelegate.h */,
 				BE85B50F15B3293E0010E0F5 /* AppDelegate.m */,
 				BE85B51115B3293E0010E0F5 /* FirstViewController.h */,
@@ -117,6 +124,34 @@
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
+		};
+		BE85B52A15B330140010E0F5 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Data;
+			sourceTree = SOURCE_ROOT;
+		};
+		BE85B52B15B330140010E0F5 /* Parser */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Parser;
+			sourceTree = SOURCE_ROOT;
+		};
+		BE85B52D15B330140010E0F5 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Request;
+			sourceTree = SOURCE_ROOT;
+		};
+		BE85B52E15B330140010E0F5 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = UI;
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -175,6 +210,7 @@
 				BE85B51E15B3293E0010E0F5 /* second@2x.png in Resources */,
 				BE85B52115B3293E0010E0F5 /* FirstViewController.xib in Resources */,
 				BE85B52415B3293E0010E0F5 /* SecondViewController.xib in Resources */,
+				BE85B52F15B330140010E0F5 /* README in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
