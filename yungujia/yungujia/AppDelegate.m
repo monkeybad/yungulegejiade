@@ -36,6 +36,7 @@
     [self.window makeKeyAndVisible];
     
     NSLog(@"I TMD test 1 xia!\n");
+    NSLog(@"I TMD test 1 xia 2!\n");
     return YES;
 }
 
