@@ -34,6 +34,8 @@
     self.tabBarController.viewControllers = [NSArray arrayWithObjects:viewController1, viewController2, nil];
     self.window.rootViewController = self.tabBarController;
     [self.window makeKeyAndVisible];
+    
+    NSLog(@"I TMD test 1 xia!\n");
     return YES;
 }
 
